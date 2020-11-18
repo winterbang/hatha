@@ -14,14 +14,19 @@
   </view>
 
   <view class="body">
-    <view class="title">
-      <image src="../../assets/imgs/icons/yoga.svg" mode="widthFix" style="width: 30px;"></image>
-      <text>体式</text>
+    <view class="top">
+      <view class="title">
+        <image src="../../assets/imgs/icons/yoga.svg" mode="widthFix" style="width: 30px;"></image>
+        <text>体式</text>
+      </view>
+      <view class="search">
+        <input placeholder="搜索体式如：山式"/>
+      </view>
     </view>
     <view class="content">
-      <view wx:for="{{20}}" class="box" wx:key="index">
-        <image src="../../assets/imgs/1.svg"  mode="widthFix"></image>
-        <text>桌子式</text>
+      <view wx:for="{{asanas}}" class="box" wx:key="index">
+        <image src="{{item.icon}}"  mode="aspectFit"></image>
+        <text>{{item.name}}</text>
       </view>
     </view>
   </view>
