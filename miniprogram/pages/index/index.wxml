@@ -1,0 +1,28 @@
+<view class="wrap">
+  <view class="header">
+    <view class="left">
+      <swiper autoplay="true" circular="true" interval="4000">
+        <swiper-item wx:for="{{3}}" wx:key="index">
+          <image src="../../assets/imgs/{{item+1}}.jpg" mode="widthFix" style="width: 100%;"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="right">
+      <view class="btn">看图猜体式</view>
+      <view class="btn">看体式猜图</view>
+    </view>
+  </view>
+
+  <view class="body">
+    <view class="title">
+      <image src="../../assets/imgs/icons/yoga.svg" mode="widthFix" style="width: 30px;"></image>
+      <text>体式</text>
+    </view>
+    <view class="content">
+      <view wx:for="{{20}}" class="box" wx:key="index">
+        <image src="../../assets/imgs/1.svg"  mode="widthFix"></image>
+        <text>桌子式</text>
+      </view>
+    </view>
+  </view>
+</view>

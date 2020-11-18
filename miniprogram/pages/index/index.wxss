@@ -1,0 +1,93 @@
+page {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--color-01);
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.left {
+  width: 60%;
+  /* height: 155px; */
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: var(--color-03);
+}
+.right {
+  width: 40%;
+  height: 120px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn {
+  height: 55px;
+  width: 100%;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 55px;
+  color: var(--color-04);
+  box-shadow: 1px 1px 3px #ccc;
+} 
+
+.btn:first-child {
+  background-color: var(--color-05);
+  /* background: linear-gradient(to right, var(--color-05), var(--color-04), var(--color-05)); */
+}
+
+.btn:last-child {
+  background-color: var(--color-06);
+  /* background: linear-gradient(to right, var(--color-06), var(--color-04), var(--color-06)); */
+}
+
+.body {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.body .title{
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 10px;
+  line-height: 30px;
+  background-color: var(--color-05);
+  color: var(--color-04);
+  border-radius: 20px 40px 20px 20px;
+  text-align: left;
+}
+
+.body .title image {
+  vertical-align: middle;
+}
+.content {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-04);
+  padding: 10px;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+  border-radius: 30px;
+  color: var(--color-05);
+}
+
+.box image {
+  width: 80%;
+}

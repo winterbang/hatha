@@ -1,0 +1,18 @@
+page {
+  --color-01: #ebf2f7;
+  --color-02: #dfedf7;
+  --color-03: #d4e9f7;
+  --color-04: #fbfdfe;
+  --color-05: #8dccfa;
+  --color-06: #0095ff;
+  --color-07: #616162;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 

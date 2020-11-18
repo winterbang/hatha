@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hatha",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8dccfa",
+    "selectedColor": "#0095ff",
+    "backgroundColor": "#dfedf7",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "体式",
+        "iconPath": "assets/imgs/tabs/yoga.png",
+        "selectedIconPath": "assets/imgs/tabs/yoga-a.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我",
+        "iconPath": "assets/imgs/tabs/mine.png",
+        "selectedIconPath": "assets/imgs/tabs/mine-a.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
